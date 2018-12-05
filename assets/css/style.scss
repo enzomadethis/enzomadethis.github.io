@@ -1,0 +1,21 @@
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+// Global
+@import "_partials/bootstrap";
+@import "_partials/variables";
+@import "_partials/heights";
+@import "_partials/type";
+@import "_partials/navigation";
+@import "_partials/media";
+@import "_partials/spacings";
+@import "_partials/buttons";
+@import "_partials/forms";
+@import "_partials/backgrounds";
+
+
+// Block Specific
+@import "_blocks/home-projects";
+@import "_blocks/post";
