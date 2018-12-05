@@ -9633,7 +9633,7 @@ h3 {
 /*# sourceMappingURL=bootstrap.css.map */
 body, p {
   font-family: "Maison Neue", "Roboto", sans-serif;
-  color: #333438;
+  color: #58595B;
   font-size: 15px;
   line-height: 1.3;
 }
@@ -9643,23 +9643,23 @@ p {
 }
 
 p > a {
-  color: #1A7C86;
+  color: #1176AE;
   font-weight: 500;
 }
 
 a {
-  color: #1A7C86;
+  color: #1176AE;
   font-weight: 500;
   transition: 0.3s ease-in-out;
 }
 a:hover {
   text-decoration: none;
-  color: rgba(26, 124, 134, 0.8);
+  color: rgba(17, 118, 174, 0.8);
 }
 
 h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
-  font-weight: 400;
-  color: #292a2d;
+  font-weight: 700;
+  color: #58595B;
   font-family: "Maison Neue", "Roboto", sans-serif;
 }
 
@@ -9669,23 +9669,23 @@ h6, .h6 {
   font-weight: 700;
   letter-spacing: 2px;
   font-size: 12px;
-  color: #333438;
+  color: #58595B;
 }
 
 .fc-header {
-  color: #292a2d;
+  color: #58595B;
 }
 .fc-text {
-  color: #333438;
+  color: #58595B;
 }
 .fc-accent {
-  color: #1A7C86;
+  color: #1176AE;
 }
 .fc-md-gray {
   color: #4f4f4f;
 }
 .fc-lt-gray {
-  color: #F1F5FD;
+  color: #F1F2F2;
 }
 
 footer ul.footer-nav {
@@ -9700,15 +9700,15 @@ footer ul.footer-nav li a {
 }
 
 .navbar-light .navbar-brand {
-  color: #1A7C86;
+  color: #1176AE;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #333438;
+  color: #58595B;
 }
 
 .navbar-light .navbar-nav .active > .nav-link {
-  color: #1A7C86;
+  color: #1176AE;
 }
 
 .project-page p > img {
@@ -9944,15 +9944,15 @@ margin X
 }
 
 .bg-dark {
-  background-color: #333438;
+  background-color: #58595B;
 }
 
 .bg-accent {
-  background-color: #1A7C86;
+  background-color: #1176AE;
 }
 
 .bg-lt-gray {
-  background-color: #F1F5FD;
+  background-color: #F1F2F2;
 }
 
 .home-projects .project {
@@ -9978,12 +9978,12 @@ margin X
   opacity: 1;
 }
 .home-projects .project .project-inner .project-inner-content h3, .home-projects .project .project-inner .project-inner-content p {
-  color: #F1F5FD;
+  color: #F1F2F2;
 }
 
 .blog-header .featured-image {
   height: 500px;
-  background-color: #F1F5FD;
+  background-color: #F1F2F2;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
