@@ -1,0 +1,20 @@
+---
+title: Enzo Fiorello
+email: efiorello@gmail.com
+author: Enzo Fiorello
+description: "<p>One morning, as Gregor Samsa was waking up from anxious dreams, he
+  discovered that in bed he had been changed into a monstrous verminous bug. He lay
+  on his armour-hard back and saw, as he lifted his head up a little, his brown, arched
+  abdomen divided up into rigid bow-like sections.</p>"
+baseurl: ''
+url: ''
+twitter_username: jekyllrb
+github_username: jekyll
+markdown: kramdown
+plugins:
+- jekyll-feed
+collections:
+  projects:
+    output: true
+    permalink: "/:collection/:title"
+timezone: Etc/UTC
