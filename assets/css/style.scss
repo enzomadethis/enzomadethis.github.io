@@ -6,6 +6,7 @@ body {
 // Global
 @import "_partials/bootstrap";
 @import "_partials/variables";
+@import "_partials/fontface";
 @import "_partials/heights";
 @import "_partials/type";
 @import "_partials/navigation";
@@ -19,3 +20,6 @@ body {
 // Block Specific
 @import "_blocks/home-projects";
 @import "_blocks/post";
+
+// Layout Specific
+@import "_layouts/split";
