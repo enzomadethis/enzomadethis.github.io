@@ -9694,7 +9694,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   font-weight: normal;
-  color: #58595B;
+  color: #1176AE;
   font-family: "Recoleta";
 }
 
@@ -9708,7 +9708,7 @@ h6, .h6 {
 }
 
 .fc-header {
-  color: #58595B;
+  color: #1176AE;
 }
 .fc-text {
   color: #58595B;
@@ -9990,30 +9990,33 @@ margin X
   background-color: #F1F2F2;
 }
 
-.home-projects .project {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  min-height: 600px;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+.split-home-projects .project-post {
+  margin-bottom: 2rem;
 }
-.home-projects .project .project-inner {
-  min-height: 600px;
+.split-home-projects .project-post-image {
+  height: 400px;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  padding: 2rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 2rem;
+}
+.split-home-projects .project-post-image .overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 1rem;
   opacity: 0;
   transition: 0.3s ease-in-out;
 }
-.home-projects .project .project-inner:hover {
-  opacity: 1;
-}
-.home-projects .project .project-inner .project-inner-content h3, .home-projects .project .project-inner .project-inner-content p {
+.split-home-projects .project-post-image .overlay h5 {
   color: #F1F2F2;
+}
+.split-home-projects .project-post-image:hover .overlay {
+  opacity: 1;
 }
 
 .blog-header .featured-image {
@@ -10037,9 +10040,10 @@ margin X
 
 @media screen and (min-width: 768px) {
   .split-layout .featured-image {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
+    z-index: 10000;
   }
 }
 .split-layout .featured-image {
