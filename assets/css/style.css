@@ -9734,6 +9734,15 @@ footer ul.footer-nav li a {
   font-weight: 400;
 }
 
+.navbar {
+  transition: 0.3s ease-in-out;
+}
+@media screen and (max-width: 768px) {
+  .navbar {
+    background-color: white;
+  }
+}
+
 .navbar-light .navbar-brand {
   color: #1176AE;
 }
@@ -9744,6 +9753,10 @@ footer ul.footer-nav li a {
 
 .navbar-light .navbar-nav .active > .nav-link {
   color: #1176AE;
+}
+
+.navbar.scrolled {
+  background-color: white;
 }
 
 .project-page p > img {
